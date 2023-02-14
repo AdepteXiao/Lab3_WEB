@@ -1,0 +1,77 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 40px;
+  width: 100%;
+  background-color: #7f5539;
+  z-index: 1;
+}
+header h1 {
+  color: #2C3337;
+  position: relative;
+  margin: 0;
+  font-family: "Verdana", sans-serif;
+  text-align: center;
+  font-weight: normal;
+}
+header img {
+  width: 200px;
+  margin-left: 1%;
+  top: 0;
+}
+
+.main-box {
+  position: absolute;
+  top: 50px;
+  z-index: 0;
+  width: 100%;
+}
+.main-box h1 {
+  color: #2C3337;
+  margin: 0;
+  font-family: "Verdana", sans-serif;
+  text-align: center;
+  font-weight: normal;
+}
+.main-box .summary {
+  clear: both;
+  position: relative;
+  width: 90%;
+  left: 5%;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #b08968;
+}
+.main-box .bul {
+  position: relative;
+  left: 7.5%;
+  width: 25%;
+  margin-bottom: 50px;
+  top: 20px;
+  float: left;
+  background-color: #b08968;
+  margin-left: 2.5%;
+  border-radius: 10px;
+}
+.main-box .bul img {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10%;
+  border-radius: 10px;
+}
+.main-box .bul p {
+  margin-left: 10%;
+  margin-right: 10%;
+  color: white;
+  word-wrap: break-word;
+  font-family: "Comic Sans MS", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ede0d4;
+}
+
+/*# sourceMappingURL=index.css.map */
