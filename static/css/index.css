@@ -4,7 +4,7 @@ header {
   left: 0;
   height: 40px;
   width: 100%;
-  background-color: #7f5539;
+  background-color: #432818;
   z-index: 1;
 }
 header h1 {
@@ -28,20 +28,24 @@ header img {
   width: 100%;
 }
 .main-box h1 {
-  color: #2C3337;
+  color: #432818;
   margin: 0;
-  font-family: "Verdana", sans-serif;
+  font-family: fantasy;
   text-align: center;
   font-weight: normal;
 }
 .main-box .summary {
   clear: both;
   position: relative;
-  width: 90%;
-  left: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
   border-radius: 10px;
-  padding: 10px;
-  background-color: #b08968;
+  padding: 1px 20px;
+}
+.main-box .summary p {
+  color: #432818;
+  word-wrap: break-word;
+  font-family: sans-serif;
 }
 .main-box .bul {
   position: relative;
@@ -65,7 +69,47 @@ header img {
   margin-right: 10%;
   color: white;
   word-wrap: break-word;
-  font-family: "Comic Sans MS", sans-serif;
+  font-family: sans-serif;
+}
+.main-box .bul h2 {
+  margin-left: 10%;
+  margin-right: 10%;
+  color: white;
+  word-wrap: break-word;
+  font-weight: normal;
+  font-family: fantasy;
+}
+.main-box #bul-1:hover {
+  animation: fade-1 0.1s ease-in forwards;
+}
+@keyframes fade-1 {
+  to {
+    background-color: #EBB30A;
+  }
+}
+.main-box #bul-2:hover {
+  animation: fade-2 0.1s ease-in forwards;
+}
+@keyframes fade-2 {
+  to {
+    background-color: #6C6874;
+  }
+}
+.main-box #bul-3:hover {
+  animation: fade-3 0.1s ease-in forwards;
+}
+@keyframes fade-3 {
+  to {
+    background-color: #cd7f32;
+  }
+}
+.main-box .double_hr {
+  margin: 20px 0;
+  padding: 0;
+  height: 1px;
+  border: none;
+  border-top: 1px solid #432818;
+  border-bottom: 1px solid #432818;
 }
 
 body {
